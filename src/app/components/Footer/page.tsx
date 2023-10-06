@@ -38,13 +38,13 @@ const Footer = () => {
         </ul>
       </section>
       <section>
-        <img src="./next.svg" alt="" width="200px" height="auto"/>
+        <img src="./next.svg" alt="" width="100px" height="auto"/>
       </section>
       <section>
-        <img src="./vercel.svg" alt="" width="200px" height="auto"/>
+        <img src="./vercel.svg" alt="" width="100px" height="auto"/>
       </section>
       <section>
-        <img src="./imgs/photo.jpg" alt="" width="200px" height="auto"/>
+        <img src="./imgs/photo.jpg" alt="" width="50px" height="auto"/>
       </section>
     </footer>
   );
