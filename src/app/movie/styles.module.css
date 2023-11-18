@@ -35,7 +35,7 @@
     height: auto;
 }
 .movies img:hover {
-    border: 5px solid yellowgreen;
+    border: 10px solid yellowgreen;
 }
 .movies h1 {
     text-align: center;
