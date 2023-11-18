@@ -1,0 +1,53 @@
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 8px;
+    color: brown;
+    font-weight: bold;
+}
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 5px;
+    grid-auto-rows: auto auto;
+    background-color: bisque;
+    margin: 0.5rem;
+}
+
+.movies article {
+    width: 95%;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+}
+.movies p {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.movies img {
+    width: 100%;
+    height: auto;
+}
+.movies h1 {
+    text-align: center;
+    color:darkblue;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 3px;
+}
+.movies div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.movies div span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(16, 152, 48);
+}
