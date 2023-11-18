@@ -34,6 +34,9 @@
     width: 100%;
     height: auto;
 }
+.movies img:hover {
+    border: 5px solid yellowgreen;
+}
 .movies h1 {
     text-align: center;
     color:darkblue;

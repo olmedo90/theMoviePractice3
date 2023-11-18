@@ -3,6 +3,7 @@ import { Movie } from "../services/models/models";
 import styles from "./styles.module.css";
 const Movies = async () => {
   const movie: Movie[] = await fetchMovies();
+  console.log("🚀 ~ file: page.tsx:6 ~ Movies ~ movie:", movie)
   const url_img = "https://image.tmdb.org/t/p/w500";
   return (
     <>
